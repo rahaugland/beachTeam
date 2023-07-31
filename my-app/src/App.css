@@ -13,6 +13,21 @@
   }
 }
 
+.Header-logo {
+  align-self: center;
+  height: 5vw;
+  padding: 3px;
+  pointer-events: none;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Header-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
